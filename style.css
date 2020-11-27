@@ -1,0 +1,63 @@
+/* Colors and fonts */
+
+
+body {
+	background-color: rgb(255, 255, 255);
+	color: 071E22;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+h1{
+	color: #476C9B;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2{
+	color: #071E22;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+a{
+	color: #476C9B;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	text-align: center;
+}
+a:hover {
+	color: #92AA83; 
+	text-orientation: none;
+	text-align: center;
+}
+
+.ronde{
+	border-radius: 50%;
+	text-align: center;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+li {
+padding: 8px;
+display: inline;
+}
+
+i {
+font-size: 40px;
+color: rgb(210, 210, 210);
+}
+
+i:hover {
+color: #92AA83;
+}
+
+@media (max-width: 720px) 
